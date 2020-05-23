@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<p>Detta är våra avsnitt:</p>
+<p>Detta är våra jättebra avsnitt:</p>
 
 <div class="card-grid">
 <!--     -->
