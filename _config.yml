@@ -1,1 +1,36 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Dubbelblind
+email: dubbelblind.podcast@gmail.com
+description: "En podd om psykologi."
+subtitle: "Vad mer kan du begära?"
+lang: sv
+author: Robin Fondberg och Martin Asperholm
+copyright: "&#xA9; 2020"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+twitter_username: Dubbelblind
+github_username:  Dubbelblind
+
+permalink: /:year/:title.html
+
+#Timezone
+timezone: Europe/Stockholm
+
+#Setup for Pages
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+
+#Exclude local build settings
+exclude: ['readme.md', 'Gemfile.lock', 'Gemfile']
+
+# Theme
 theme: jekyll-theme-cayman
