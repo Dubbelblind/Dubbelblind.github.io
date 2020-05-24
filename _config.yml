@@ -8,7 +8,7 @@
 # Site settings
 title: Dubbelblind
 email: dubbelblind.podcast@gmail.com
-description: "En podd om psykologi. Typ."
+description: "En podd om psykologisk vetenskap och de metoder som används för att ta reda på hur saker och ting faktiskt ligger till. De som gör podden heter Robin Fondberg och Martin Asperholm och de är doktorander på avdelningen för psykologi vid Karolinska Institutet."
 subtitle: "Vad mer kan du begära?"
 lang: sv
 author: Robin Fondberg och Martin Asperholm
@@ -18,7 +18,7 @@ url: "https://dubbelblind.github.io" # the base hostname & protocol for your sit
 twitter_username: Dubbelblind
 github_username:  Dubbelblind
 
-permalink: /:year/:title.html
+permalink: /:title.html
 
 #Timezone
 timezone: Europe/Stockholm
