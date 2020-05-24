@@ -15,9 +15,8 @@ author: Robin Fondberg och Martin Asperholm
 copyright: "&#xA9; 2020"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dubbelblind.github.io" # the base hostname & protocol for your site
-twitter_username: Dubbelblind
-github_username:  Dubbelblind
 
+# Permalink
 permalink: /:title.html
 
 #Timezone
@@ -31,6 +30,3 @@ markdown: kramdown
 
 #Exclude local build settings
 exclude: ['readme.md', 'Gemfile.lock', 'Gemfile']
-
-# Theme
-theme: jekyll-theme-cayman
