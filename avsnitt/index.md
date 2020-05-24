@@ -9,12 +9,12 @@ layout: default
     {% assign first_post = site.posts.first %}
     <div class="cards">
         <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="post-link" href="{{ first_post.url | prepend: site.baseurl }}">{{ first_post.title }}</a>
         </h2>
-        <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <p>{{ post.summary }} </p>
+        <p class="meta">{{ first_post.date | date: "%b %-d, %Y" }}</p>
+        <p>{{ first_post.summary }} </p>
     </div>
-    
+     
     {% for post in site.posts offset:1 %}
     <br>
     <div class="cards">
