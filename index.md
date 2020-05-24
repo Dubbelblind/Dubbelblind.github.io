@@ -10,13 +10,13 @@ layout: default
 	</html>
 -->
 
-<h1>Dubbelblind</h1>
+# Dubbelblind
 
-<p>Dubbelblind är en podd om psykologisk vetenskap och de metoder som används för att ta reda på hur saker och ting egentligen ligger till. Vi som gör podden heter Robin Fondberg och Martin Asperholm, och vi är doktorander vid Avdelningen för psykolgoi på Karolinska Institutet. Du kan lyssna på podden genom att söka på "Dubbelblind" i din poddspelare (vi rekommenderar Overcast på iOS och X på Android) eller genom att spela upp enskilda avsnitt direkt på den här hemsidan. Om du vill använda dig av RSS-feeden så hittar du den [här](www.dubbelblind.github.io/podcast.xml).</p>
+Dubbelblind är en podd om psykologisk vetenskap och de metoder som används för att ta reda på hur saker och ting egentligen ligger till. Vi som gör podden heter Robin Fondberg och Martin Asperholm, och vi är doktorander vid Avdelningen för psykolgoi på Karolinska Institutet. Du kan lyssna på podden genom att söka på "Dubbelblind" i din poddspelare (vi rekommenderar [Overcast](https://overcast.fm) på iOS och X på Android) eller genom att spela upp enskilda avsnitt direkt på den här hemsidan. Om du vill använda dig av RSS-feeden så hittar du den [här](www.dubbelblind.github.io/podcast.xml).
 
-<p>Du kan kontakta oss på dubbelblind.podcast@gmail.com eller genom Twitter där vi heter [@RobinFondberg](https://twitter.com/RobinFondberg) och [@MAsperholm](https://twitter.com/MAsperholm).</p>
+Du kan kontakta oss på dubbelblind.podcast@gmail.com eller genom Twitter där vi heter [@RobinFondberg](https://twitter.com/RobinFondberg) och [@MAsperholm](https://twitter.com/MAsperholm).
 
-<p>Nedan följer en lista på de avsnitt vi hittills har släppt:</p>
+Nedan följer en lista på de avsnitt vi hittills har släppt:
 
 <div class="card-grid">
 <!--     -->
