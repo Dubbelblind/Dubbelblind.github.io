@@ -12,7 +12,7 @@ layout: default
         <h2>
             <a class="post-link" href="{{ first_post.url | prepend: site.baseurl }}">{{ first_post.title }}</a>
         </h2>
-        <p class="meta">{{ first_post.date | date: "%Y- %m- %d" }}</p>
+        <p class="meta">{{ first_post.date | date: "%Y-%m-%d" }}</p>
         <p>{{ first_post.summary }} </p>
     </div>
      
@@ -22,7 +22,7 @@ layout: default
         <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <p class="meta">{{ post.date | date: "%Y-%m-%d" }}</p>
         <p>{{ post.summary }} </p>
     </div>
     {% endfor %}
