@@ -18,7 +18,7 @@ a
  	margin-right: auto;
   	width: 50%; */
 	
-	position: relative;
+	position: block;
 	text-align: center;
 	width: 50%;
  	margin-left: auto;
