@@ -5,7 +5,7 @@ layout: default
 
     <span class="avsnitt_titel">{{ page.title }}</span>
        
-    <div class="avsnitt_datum">
+    <div class="avsnitt_info">
         {{ page.duration }} (<a href="{{ site.baseurl }}{{ page.file }}" download="{{ page.title }}">ladda hem</a>) • Utgiven <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
     </div>
     
