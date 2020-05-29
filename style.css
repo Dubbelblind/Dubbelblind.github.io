@@ -11,6 +11,12 @@ a
 	color: linear-gradient(to right, red , yellow);
 }
 
+.avsnitt
+{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
 .avsnitt_titel
 {
 	color: black;
