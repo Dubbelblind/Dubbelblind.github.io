@@ -34,7 +34,14 @@ a
 	margin-bottom: 1.25em;
 }
 
+.avsnitt_uppspelare 
+{
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+}
+
 .avsnitt_summering 
 {
+	margin-top: 1.25em;
 	font-size: 1.0em;
 }
