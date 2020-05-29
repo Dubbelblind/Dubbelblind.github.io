@@ -3,15 +3,17 @@ layout: default
 ---
 <article class="post" >
 
-    <span class="avsnitt_titel">{{ page.title }}</span class="avsnitt_titel">
+    <span class="avsnitt_titel">{{ page.title }}</span>
        
     <div class="avsnitt_datum">
-        Utgiven <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
+        {{ page.duration }} (<a href="{{ site.baseurl }}{{ page.file }}" download="{{ page.title }}">ladda hem</a>) • Utgiven <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
     </div>
     
+    <!--
     <div class="avsnitt_nedladdningslänk">
         <a href="{{ site.baseurl }}{{ page.file }}" download="{{ page.title }}">Ladda hem avsnittet här!</a>
     </div>
+    -->
     
     <div class="avsnitt_uppspelare">
         <audio controls>
