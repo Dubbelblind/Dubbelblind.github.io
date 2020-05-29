@@ -4,3 +4,18 @@ body
 	font-size: 100%;
 	text-align: justify;
 }
+
+.avsnitt_titel
+{
+	color: green;
+}
+
+.avsnitt_datum
+{
+	color: red;
+}
+
+.avsnitt_summering 
+{
+	color: pink;
+}
