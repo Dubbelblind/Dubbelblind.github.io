@@ -19,7 +19,7 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
 {% assign first_post = site.posts.first %}
 <div class="avsnitt">
 	<a class="avsnitt_titel" href="{{ first_post.url | prepend: site.baseurl }}">{{ first_post.title }}</a>
-	<div class="avsnitt_datum">{{ first_post.date | date: "%Y-%m-%d" }}</div>
+	<div class="avsnitt_datum">Utgivet {{ first_post.date | date: "%Y-%m-%d" }}</div>
 	<div class="avsnitt_summering">{{ first_post.summary }} </div>
 </div>
 
