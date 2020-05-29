@@ -15,7 +15,7 @@ a
 
 .logo
 {
-	display: block;
+	display: inline-block;
    	margin-left: 10em;
 	width: 10%;
 }
