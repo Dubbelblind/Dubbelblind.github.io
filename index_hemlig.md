@@ -23,10 +23,10 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
 	<div class="avsnitt_info"> 
 		Längd: {{ first_post.duration }} • Utgiven: <time datetime="{{ first_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ first_post.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ first_post.file }}" download="{{ first_post.title }}">Ladda hem</a>
 	</div>
+	<div class="avsnitt_summering">{{ first_post.summary }} </div>
 	<div class="avsnitt_uppspelare">
        		<audio controls preload="none" src="{{ first_post.file }}" type="audio/mp3"></audio>
     	</div>
-	<div class="avsnitt_summering">{{ first_post.summary }} </div>
 	<div class="avsnitt_beskrivning">{{ first_post.description }} </div>
 </div>
 
@@ -36,10 +36,10 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
 	<div class="avsnitt_info"> 
 		Längd: {{ post.duration }} • Utgiven: <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ post.file }}" download="{{ post.title }}">Ladda hem</a>
 	</div>
+	<div class="avsnitt_summering">{{ post.summary }} </div>
 	<div class="avsnitt_uppspelare">
        		<audio controls preload="none" src="{{ post.file }}" type="audio/mp3"></audio>
     	</div>
-	<div class="avsnitt_summering">{{ post.summary }} </div>
 	<div class="avsnitt_beskrivning">{{ post.description }} </div>
 </div>
 {% endfor %}
