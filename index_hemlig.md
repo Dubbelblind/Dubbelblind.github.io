@@ -41,7 +41,7 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
        		<audio controls preload="none" src="{{ post.file }}" type="audio/mp3"></audio>
     	</div>
 	<div class="avsnitt_summering">{{ post.summary }} </div>
-	•
+	<div class="avsnitt_punkt">•</div>
 	<div class="avsnitt_beskrivning">{{ post.description }} </div>
 </div>
 {% endfor %}
