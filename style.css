@@ -23,9 +23,7 @@ a
 	font-style: bold;
 }
 
-.leftPolicyBox1 a:link, 
-.leftPolicyBox1 a:visited, 
-.leftPolicyBox1 a:hover 
+.avsnitt_titel_länk
 {
 	color: #6ba5a1;
 }
