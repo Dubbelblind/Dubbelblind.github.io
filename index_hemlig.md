@@ -20,7 +20,7 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
 <div class="avsnitt">
 	<div class="avsnitt_titel"><a href="{{ first_post.url | prepend: site.baseurl }}" class="avsnitt_titel_länk">{{ first_post.title }}</a></div>
 	<div class="avsnitt_info"> 
-		Längd: {{ first_post.duration }} • Utgiven <time datetime="{{ first_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ first_post.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ first_post.file }}" download="{{ first_post.title }}">Ladda hem</a>
+		Längd: {{ first_post.duration }} • Utgiven: <time datetime="{{ first_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ first_post.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ first_post.file }}" download="{{ first_post.title }}">Ladda hem</a>
 	</div>
 	<div class="avsnitt_uppspelare">
        		<audio controls>
@@ -35,7 +35,7 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
 <div class="avsnitt">
 	<div class="avsnitt_titel"><a href="{{ post.url | prepend: site.baseurl }}" class="avsnitt_titel_länk">{{ post.title }}</a></div>
 	<div class="avsnitt_info"> 
-		Längd: {{ post.duration }} • Utgiven <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ post.file }}" download="{{ post.title }}">Ladda hem</a>
+		Längd: {{ post.duration }} • Utgiven: <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ post.file }}" download="{{ post.title }}">Ladda hem</a>
 	</div>
 	<div class="avsnitt_uppspelare">
        		<audio controls>
