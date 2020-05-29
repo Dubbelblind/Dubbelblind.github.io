@@ -34,7 +34,7 @@ a
 	font-size: 1.25em;
 	font-style: bold;
 	width: 50%;
-	text-align: left;
+	text-align: center;
 }
 
 .avsnitt_titel_länk
@@ -46,12 +46,16 @@ a
 {
 	font-style: italic;
 	font-size: 0.8em;
+	text-align: center;
+	width: 50%;
 }
 
 .avsnitt_uppspelare 
 {
 	margin-top: 1em;
 	margin-bottom: 1em;
+	text-align: center;
+	width: 50%;
 }
 
 .avsnitt_summering 
