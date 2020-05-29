@@ -31,8 +31,14 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
 
 {% for post in site.posts offset:1 %}
 <div class="avsnitt">
-	<a class="avsnitt_titel" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	<div class="avsnitt_datum">Utgivet {{ post.date | date: "%Y-%m-%d" }}</div>
-	<div class="avsnitt_summering">{{ post.summary }}</div>
+	<div class="avsnitt_titel"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+	<div class="avsnitt_info">{{ post.duration }} (<a href="{{ site.baseurl }}{{ post.file }}" download="{{ post.title }}">ladda hem</a>) • Utgiven <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time></div>
+	<div class="avsnitt_uppspelare">
+       		<audio controls>
+        		<source src="{{ post.file }}" type="audio/mp3">
+        	</audio>
+    	</div>
+	<div class="avsnitt_summering">{{ post.summary }} </div>
+	<div class="avsnitt_beskrivning">{{ post.description }} </div>
 </div>
 {% endfor %}
