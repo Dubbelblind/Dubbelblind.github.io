@@ -9,9 +9,7 @@ layout: default
 		</head>
 	</html>
 -->
-<div class="logo">
-	<img src="./images/Logo.jpg">
-</div>
+<img src="./images/Logo.jpg" class="logo">
 
 Dubbelblind är en podd om psykologisk vetenskap och de metoder som används för att ta reda på hur saker och ting faktiskt ligger till. Vi som gör podden heter Robin Fondberg och Martin Asperholm, och vi är doktorander på Avdelningen för psykologi på Karolinska Institutet. Du kan lyssna på podden genom att söka på "Dubbelblind" i din poddspelare (vi rekommenderar [Overcast](https://overcast.fm) på iOS och har ingen aning om vad som är bra på Android) eller genom att spela upp enskilda avsnitt direkt på den här hemsidan. Om du vill använda dig av RSS-feeden så hittar du den [här](./podcast.xml).
 
