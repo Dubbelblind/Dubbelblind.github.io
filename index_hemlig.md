@@ -26,7 +26,7 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
 {% for post in site.posts offset:1 %}
 <div class="avsnitt">
 	<a class="avsnitt_titel" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	<div class="avsnitt_datum">{{ post.date | date: "%Y-%m-%d" }}</div>
+	<div class="avsnitt_datum">Utgivet {{ post.date | date: "%Y-%m-%d" }}</div>
 	<div class="avsnitt_summering">{{ post.summary }}</div>
 </div>
 {% endfor %}
