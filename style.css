@@ -13,10 +13,16 @@ a
 
 .logo
 {
-	display: block;
+	/* display: block;
   	margin-left: auto;
  	margin-right: auto;
-  	width: 50%;
+  	width: 50%; */
+	
+	position: relative;
+	text-align: center;
+	width: 50%;
+ 	margin-left: auto;
+   	margin-right: auto;
 }
 
 .avsnitt
