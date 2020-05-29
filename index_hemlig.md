@@ -19,7 +19,7 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
 {% assign first_post = site.posts.first %}
 <div class="avsnitt">
 	<a class="avsnitt_titel" href="{{ first_post.url | prepend: site.baseurl }}">{{ first_post.title }}</a>
-	{{ first_post.duration }} (<a href="{{ site.baseurl }}{{ first_post.file }}" download="{{ first_post.title }}">ladda hem</a>) • Utgiven <time datetime="{{ first_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
+	{{ first_post.duration }} (<a href="{{ site.baseurl }}{{ first_post.file }}" download="{{ first_post.title }}">ladda hem</a>) • Utgiven <time datetime="{{ first_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ first_post.date | date: "%Y-%m-%d" }}</time>
 	<div class="avsnitt_summering">{{ first_post.summary }} </div>
 </div>
 
