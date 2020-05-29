@@ -17,17 +17,17 @@ a
 	margin-bottom: 2em;
 }
 
-.avsnitt_titel_länk
-{
-	color: #6ba5a1;
-	font-size: 1.2em;
-	font-style: bold;
-}
-
 .avsnitt_titel
 {
 	font-size: 1.25em;
 	font-style: bold;
+}
+
+.leftPolicyBox1 a:link, 
+.leftPolicyBox1 a:visited, 
+.leftPolicyBox1 a:hover 
+{
+	color: #6ba5a1;
 }
 
 .avsnitt_info
