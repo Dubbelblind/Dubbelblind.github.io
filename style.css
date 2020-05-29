@@ -36,7 +36,7 @@ a
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 60%;
 }
 
 .avsnitt_titel_länk
@@ -51,7 +51,7 @@ a
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 60%;
 }
 
 .avsnitt_uppspelare 
@@ -61,10 +61,12 @@ a
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 60%;
 }
 
 .avsnitt_summering 
 {
-
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;	
 }
