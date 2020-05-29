@@ -3,19 +3,22 @@ body
 	font-family: 'Noto Serif', serif;
 	font-size: 100%;
 	text-align: justify;
+	color: black;
 }
 
 .avsnitt_titel
 {
-	color: green;
+	color: black;
+	font-size: 1.2em;
 }
 
 .avsnitt_datum
 {
-	color: red;
+	font-style: italic;
+	font-size: 0.8em;
 }
 
 .avsnitt_summering 
 {
-	color: pink;
+	font-size: 1.0em;
 }
