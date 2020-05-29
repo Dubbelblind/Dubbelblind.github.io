@@ -70,3 +70,13 @@ a
 	margin-right: auto;
 	width: 60%;	
 }
+
+.avsnitt_punkt
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
