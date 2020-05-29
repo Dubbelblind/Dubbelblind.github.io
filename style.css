@@ -3,6 +3,8 @@ body
 	font-family: 'Noto Serif', serif;
 	font-size: 100%;
 	text-align: justify;
+	margin: 0;
+    	padding: 0;
 	color: black;
 }
 
