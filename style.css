@@ -2,8 +2,7 @@ body
 {
 	font-family: 'Noto Serif', serif;
 	font-size: 100%;
-	margin: 0;
-    	padding: 0;
+	/* text-align: justify; */
 	color: black;
 }
 
@@ -14,7 +13,7 @@ a
 
 .logo
 {
-	display: inline-block;
+	display: block;
    	margin-left: auto;
 	margin-right: auto;
 	width: 10%;
