@@ -8,9 +8,7 @@ body
 
 a
 {
-	background: -webkit-linear-gradient(to right, red , yellow);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
+	color: linear-gradient(to right, red , yellow);
 }
 
 .avsnitt_titel
