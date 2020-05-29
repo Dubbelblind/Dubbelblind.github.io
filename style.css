@@ -17,9 +17,13 @@ a
 	margin-bottom: 2em;
 }
 
+.avsnitt_titel_länk
+{
+	font-size: 1.2em;
+}
+
 .avsnitt_titel
 {
-	color: black;
 	font-size: 1.2em;
 }
 
