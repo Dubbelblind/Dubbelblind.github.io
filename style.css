@@ -1,4 +1,6 @@
 body 
 {
   font-family: 'Arvo', serif;
+  font-size: 100%;
+	text-align: justify;
 }
