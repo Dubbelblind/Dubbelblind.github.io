@@ -13,16 +13,11 @@ a
 	color: gray;
 }
 
-.logo_wrapper
-{
-	min-width: 100%;
-	text-align: center;
-}
-
 .logo
 {
-	display: block;
-	margin: 0 auto;
+	display: flex;
+  	justify-content: center;
+	width: 40%;
 }
 
 .avsnitt
