@@ -1,6 +1,6 @@
 body 
 {
-	color: red;
+	color: yellow;
 	font-family: 'Noto Serif', serif;
 	font-size: 150%;
 	text-align: justify;
@@ -76,7 +76,7 @@ audio
 {
 	body
 	{
-		color: blue;
+		color: green;
 		max-width: 600px;
 		font-size: 100%;
 	}
