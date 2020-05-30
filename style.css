@@ -55,7 +55,7 @@ a
 	width: 70%;
 }
 
-.avsnitt_uppspelare 
+audio
 {
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -73,14 +73,4 @@ a
 	margin-bottom: 2em;
 	margin-top: 1.25em;
 	width: 70%;	
-}
-
-audio
-{
-	margin-top: 1em;
-	margin-bottom: 1em;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
 }
