@@ -24,9 +24,7 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
 		Längd: {{ first_post.duration }} • Utgiven: <time datetime="{{ first_post.date | date_to_xmlschema }}" itemprop="datePublished">{{ first_post.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ first_post.file }}" download="{{ first_post.title }}">Ladda hem</a>
 	</div>
 	<div class="avsnitt_summering">{{ first_post.summary }} </div>
-	<div class="avsnitt_uppspelare">
-       		<audio controls preload="none" src="{{ first_post.file }}" type="audio/mp3"></audio>
-    	</div>
+       	<audio controls preload="none" src="{{ first_post.file }}" type="audio/mp3"></audio>
 	<div class="avsnitt_beskrivning">{{ first_post.description }} </div>
 </div>
 
