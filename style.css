@@ -76,3 +76,11 @@ audio
 	margin-top: 1.25em;
 	width: 70%;	
 }
+
+@media only screen and (max-device-width: 600px)
+{
+	body
+	{
+		font-size: 150%;
+	}
+}
