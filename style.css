@@ -1,6 +1,5 @@
 body 
 {
-	color: blue;
 	font-family: 'Noto Serif', serif;
 	font-size: 150%;
 	text-align: justify;
@@ -37,7 +36,6 @@ a
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
 }
 
 .avsnitt_titel_länk
@@ -54,7 +52,6 @@ a
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
 }
 
 audio
@@ -64,7 +61,6 @@ audio
 	margin-bottom: 1.6em;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
 }
 
 .avsnitt_summering 
@@ -74,15 +70,33 @@ audio
 	margin-right: auto;
 	margin-bottom: 2em;
 	margin-top: 1.25em;
-	width: 70%;	
 }
 
 @media only screen and (min-width: 700px)
 {
 	body
 	{
-		color: red;
 		max-width: 600px;
 		font-size: 100%;
+	}
+	
+	.avsnitt_titel
+	{
+		width: 70%;			
+	}
+	
+	.avsnitt_info
+	{
+		width: 70%;	
+	}
+	
+	audio
+	{
+		width: 70%;	
+	}
+	
+	.avsnitt_summering
+	{
+		width: 70%;	
 	}
 }
