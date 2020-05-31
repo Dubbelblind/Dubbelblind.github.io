@@ -12,7 +12,7 @@ body
 
 a
 {
-	color: #808080;
+	color: rgb(88,190,154);
 }
 
 .logo
@@ -47,7 +47,7 @@ a
 {
 	font-style: bold;
 	text-decoration: none;
-	color: #850852;
+	color: rgb(227,127,118);
 }
 
 .avsnitt_info
