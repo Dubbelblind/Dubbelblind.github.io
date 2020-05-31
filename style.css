@@ -62,11 +62,10 @@ a:hover
 }
 */
 
-.avsnitt_titel a:link, .avsnitt_titel_länk a:visited
-{
+.avsnitt_titel a {
 	font-style: bold;
 	text-decoration: none;
-	color: rgb(32,54,23);
+	color: rgb(227,127,118);
 }
 
 .avsnitt_titel a:hover {
