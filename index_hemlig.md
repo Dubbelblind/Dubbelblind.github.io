@@ -18,6 +18,7 @@ Du kan kontakta oss på <a href="mailto:dubbelblind@gmail.com">dubbelblind.podca
 Nedan följer en lista på de avsnitt vi hittills har släppt:
 
 {% assign first_post = site.posts.first %}
+<article>
 <div class="avsnitt">
 	<div class="avsnitt_titel"><a href="{{ first_post.url | prepend: site.baseurl }}" class="avsnitt_titel_länk">{{ first_post.title }}</a></div>
 	<div class="avsnitt_info"> 
@@ -27,8 +28,10 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
        	<audio controls preload="none" src="{{ first_post.file }}" type="audio/mp3"></audio>
 	<div class="avsnitt_beskrivning">{{ first_post.description }} </div>
 </div>
+<article>
 
 {% for post in site.posts offset:1 %}
+<article>
 <div class="avsnitt">
 	<div class="avsnitt_titel"><a href="{{ post.url | prepend: site.baseurl }}" class="avsnitt_titel_länk">{{ post.title }}</a></div>
 	<div class="avsnitt_info"> 
@@ -38,4 +41,5 @@ Nedan följer en lista på de avsnitt vi hittills har släppt:
        	<audio controls preload="none" class="avsnitt_uppspelare " src="{{ post.file }}" type="audio/mp3"></audio>
 	<div class="avsnitt_beskrivning">{{ post.description }} </div>
 </div>
+</article>
 {% endfor %}
