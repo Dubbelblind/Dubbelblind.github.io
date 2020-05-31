@@ -15,6 +15,14 @@ a
 	color: rgb(88,190,154);
 }
 
+a:hover
+{
+	color: white;
+	background-color: rgb(88,190,154);
+	-webkit-transition: color 0.3s linear, background-color 0.3s linear;
+	transition: color 0.3s linear, background-color 0.3s linear;
+}
+
 .logo
 {
 	display: block;
