@@ -60,7 +60,7 @@ a:hover
 	color: rgb(227,127,118);
 }
 
-#avsnitt_titel_länk a:hover {
+.avsnitt_titel_länk a:hover {
 	color: white;
 	background-color: rgb(227,127,118);
 	-webkit-transition: color 0.3s linear, background-color 0.3s linear;
