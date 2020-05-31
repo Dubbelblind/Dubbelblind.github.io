@@ -53,7 +53,16 @@ a:hover
 	margin-right: auto;
 }
 
+/*
 .avsnitt_titel_länk
+{
+	font-style: bold;
+	text-decoration: none;
+	color: rgb(227,127,118);
+}
+*/
+
+.avsnitt_titel_länk a:link, .avsnitt_titel_länk a:visited
 {
 	font-style: bold;
 	text-decoration: none;
