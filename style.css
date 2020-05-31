@@ -73,6 +73,9 @@ a:hover
 	background-color: rgb(227,127,118);
 	-webkit-transition: color 0.3s linear, background-color 0.3s linear;
 	transition: color 0.3s linear, background-color 0.3s linear;
+	-webkit-box-decoration-break: clone;
+	-o-box-decoration-break: clone;
+	box-decoration-break: clone;
 }
 
 .avsnitt_info
