@@ -2,27 +2,13 @@
 layout: default
 ---
 <article class="post" >
-
-    <span class="avsnitt_titel">{{ page.title }}</span>
-       
-    <div class="avsnitt_info">
-        {{ page.duration }} (<a href="{{ site.baseurl }}{{ page.file }}" download="{{ page.title }}">ladda hem</a>) • Utgiven <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
-    </div>
     
-    <!--
-    <div class="avsnitt_nedladdningslänk">
-        <a href="{{ site.baseurl }}{{ page.file }}" download="{{ page.title }}">Ladda hem avsnittet här!</a>
-    </div>
-    -->
+	<div class="avsnitt_titel"><a href="{{ page.url | prepend: site.baseurl }}" class="avsnitt_titel_länk">{{ page.title }}</a></div>
+	<div class="avsnitt_info"> 
+		Längd: {{ page.duration }} • Utgiven: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ page.file }}" download="{{ page.title }}">Ladda hem</a>
+	</div>
+	<div class="avsnitt_summering">{{ page.summary }} </div>
+       	<audio controls preload="none" class="avsnitt_uppspelare " src="{{ page.file }}" type="audio/mp3"></audio>
+	<div class="avsnitt_beskrivning">{{ page.description }} </div>
     
-    <div class="avsnitt_uppspelare">
-        <audio controls>
-            <source src="{{ page.file }}" type="audio/mp3">
-        </audio>
-    </div>
-
-    <div class="avsnitt_beskrivning">
-        {{ content }}
-    </div>
-
 </article>
