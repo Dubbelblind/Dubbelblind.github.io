@@ -4,7 +4,7 @@ layout: default
 <body>
 	<article>
 		<div class="avsnitt">
-			<a href="{{ page.url | prepend: site.baseurl }}" class="linkback">&larr; Tillbaka till avsnittsförteckning</a>
+			<a href="{{ site.url | prepend: site.baseurl }}" class="linkback">&larr; Tillbaka till avsnittsförteckning</a>
 			<div class="avsnitt_titel"><a href="{{ page.url | prepend: site.baseurl }}" class="avsnitt_titel_länk">{{ page.title }}</a></div>
 			<div class="avsnitt_info"> 
 				Längd: {{ page.duration }} • Utgiven: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ page.file }}" download="{{ page.title }}">Ladda hem</a>
