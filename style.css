@@ -12,7 +12,7 @@ body
 
 a
 {
-	color: rgb(34,171,191);
+	color: rgb(35,171,192);
 	background: transparent;
 	border-radius: 0.25em;
 }
@@ -20,7 +20,7 @@ a
 a:hover
 {
 	color: white;
-	background-color: rgb(34,171,191);
+	background-color: rgb(35,171,192);
 	-webkit-transition: color 0.3s linear, background-color 0.3s linear;
 	transition: color 0.3s linear, background-color 0.3s linear;
 	-webkit-box-decoration-break: clone;
@@ -68,12 +68,12 @@ a:hover
 .avsnitt_titel a {
 	font-style: bold;
 	text-decoration: none;
-	color: rgb(244,184,68);
+	color: rgb(245,119,112);
 }
 
 .avsnitt_titel a:hover {
 	color: white;
-	background-color: rgb(244,184,68);
+	background-color: rgb(245,119,112);
 	-webkit-transition: color 0.3s linear, background-color 0.3s linear;
 	transition: color 0.3s linear, background-color 0.3s linear;
 	-webkit-box-decoration-break: clone;
