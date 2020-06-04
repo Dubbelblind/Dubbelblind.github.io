@@ -62,15 +62,14 @@ a:hover
 	color: rgb(245,119,112);
 }
 
-/* .avsnitt_titel a:hover {
-	color: white;
-	background-color: rgb(245,119,112);
-	-webkit-transition: color 0.3s linear, background-color 0.3s linear;
-	transition: color 0.3s linear, background-color 0.3s linear;
-	-webkit-box-decoration-break: clone;
-	-o-box-decoration-break: clone;
-	box-decoration-break: clone;
-} */
+.avsnitt_titel a:hover {
+	background-color: none;
+	-webkit-transition: none;
+	transition: none;
+	-webkit-box-decoration-break: none;
+	-o-box-decoration-break: none;
+	box-decoration-break: none;
+}
 
 .avsnitt_info
 {
