@@ -7,8 +7,10 @@ layout: default
 			<div class="avsnitt_tillbaka">
 				<a href="{{ site.url | prepend: site.baseurl }}">&larr; Tillbaka till avsnittsförteckning</a>
 			</div>
-			<div class="avsnitt_titel"><span class="avsnitt_titel_utan_länk>{{ page.title }}</span></div>
-			<div class="avsnitt_info"> 
+			<div class="avsnitt_titel">
+				<span class="avsnitt_titel_utan_länk>{{ page.title }}</span>
+			</div>
+			<div class="avsnitt_info">
 				Längd: {{ page.duration }} • Utgiven: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ page.file }}" download="{{ page.title }}">Ladda hem</a>
 			</div>
 			<div class="avsnitt_summering">{{ page.summary }} </div>
