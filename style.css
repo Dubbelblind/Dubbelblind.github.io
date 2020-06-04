@@ -56,7 +56,7 @@ a:hover
 	margin-right: auto;
 }
 
-#avsnitt_titel_utan_länk
+.avsnitt_titel_utan_lank
 {
 	font-style: bold;
 	color: rgb(245,119,112);
