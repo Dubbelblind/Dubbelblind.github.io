@@ -63,12 +63,7 @@ a:hover
 }
 
 .avsnitt_titel a:hover {
-	background-color: none;
-	-webkit-transition: none;
-	transition: none;
-	-webkit-box-decoration-break: none;
-	-o-box-decoration-break: none;
-	box-decoration-break: none;
+	background-color: transparent;
 }
 
 .avsnitt_info
