@@ -2,21 +2,21 @@
 layout: default
 ---
 <body>
-	<article>
-		<img src="./images/Logo_2.svg" class="logo">
-		<div class="avsnitt">
-			<div class="avsnitt_tillbaka">
-				<a href="{{ site.url | prepend: site.baseurl }}">&larr; Tillbaka till avsnittsförteckning</a>
-			</div>
-			<div class="avsnitt_titel">
-				{{ page.title }}
-			</div>
-			<div class="avsnitt_info">
-				Längd: {{ page.duration }} • Utgiven: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ page.file }}" download="{{ page.title }}">Ladda hem</a>
-			</div>
-			<div class="avsnitt_summering">{{ page.summary }} </div>
-			<audio controls preload="none" class="avsnitt_uppspelare " src="{{ page.file }}" type="audio/mp3"></audio>
-			<div class="avsnitt_beskrivning">{{ page.description }} </div>
+	<img src="./images/Logo_2.svg" class="logo">
+	<div class="avsnitt">
+		<div class="avsnitt_tillbaka">
+			<a href="{{ site.url | prepend: site.baseurl }}">&larr; Tillbaka till avsnittsförteckning</a>
 		</div>
-	</article>
+		<article>
+		<div class="avsnitt_titel">
+			{{ page.title }}
+		</div>
+		<div class="avsnitt_info">
+			Längd: {{ page.duration }} • Utgiven: <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time> • <a href="{{ site.baseurl }}{{ page.file }}" download="{{ page.title }}">Ladda hem</a>
+		</div>
+		<div class="avsnitt_summering">{{ page.summary }} </div>
+		<audio controls preload="none" class="avsnitt_uppspelare " src="{{ page.file }}" type="audio/mp3"></audio>
+		<div class="avsnitt_beskrivning">{{ page.description }} </div>
+		</article>
+	</div>
 </body>
