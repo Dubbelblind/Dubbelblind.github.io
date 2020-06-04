@@ -62,7 +62,7 @@ a:hover
 	color: rgb(245,119,112);
 }
 
-.avsnitt_titel a:hover {
+/* .avsnitt_titel a:hover {
 	color: white;
 	background-color: rgb(245,119,112);
 	-webkit-transition: color 0.3s linear, background-color 0.3s linear;
@@ -70,7 +70,7 @@ a:hover
 	-webkit-box-decoration-break: clone;
 	-o-box-decoration-break: clone;
 	box-decoration-break: clone;
-}
+} */
 
 .avsnitt_info
 {
