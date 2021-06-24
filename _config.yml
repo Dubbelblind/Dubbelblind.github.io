@@ -14,7 +14,7 @@ lang: sv
 author: Robin Fondberg och Martin Asperholm
 copyright: "&#xA9; 2021"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dubbelblind.github.io" # the base hostname & protocol for your site
+url: "http://dubbelblind.se" # the base hostname & protocol for your site
 
 # Permalink
 permalink: /:title.html
