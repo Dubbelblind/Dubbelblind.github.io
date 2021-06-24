@@ -12,7 +12,7 @@ description: "En podd om psykologisk vetenskap och de metoder som används för 
 subtitle: "En podd om psykologisk vetenskap."
 lang: sv
 author: Robin Fondberg och Martin Asperholm
-copyright: "&#xA9; 2020"
+copyright: "&#xA9; 2021"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dubbelblind.github.io" # the base hostname & protocol for your site
 
